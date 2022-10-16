@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(40, 40, 40);
+}
+h1{
+    background-color: rgb(255, 248, 33);
+}
+.container-cover {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  background-color: rgb(255, 248, 33);
+  width: 400px;
+  height: 400px;
+}
+.name,
+.password {
+  margin: 10px;
+  padding: 12px;
+  width: 200px;
+  color:aliceblue;
+  border-radius: 4px;
+  border: 0px;
+  font-size: large;
+}
+.content {
+  
+  background-color: rgb(255, 248, 33);
+}
+.main{
+    background-color:rgb(255, 248, 33);
+}
+#button{
+    width: 150px;
+    
+    color: aliceblue;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1em;
+}
+.login{
+    font-size:40px;
+}
+@media screen and (max-width:300px) {
+    .container-cover{
+        width: 70%;
+    }
+}
